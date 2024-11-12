@@ -52,8 +52,13 @@ const VideoScreen = () => {
       {/* Video Container */}
       <div className="relative aspect-video bg-black/50 overflow-hidden">
         
-        <iframe allow="fullscreen" allowfullscreen height="100%" src="https://streamable.com/e/8aghka?" width="100%" style="border:none; width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden;"></iframe>
-
+    <iframe
+          src="https://streamable.com/8aghka"
+          className="w-full h-full"
+          frameBorder="0"
+          allowFullScreen
+          title="AUTO_MATE DEMO"
+        ></iframe>
         {/* Decorative Elements */}
         <div className="absolute top-4 left-4 flex items-center gap-2">
           <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
