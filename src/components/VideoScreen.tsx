@@ -50,23 +50,7 @@ const VideoScreen = () => {
       <div className="absolute inset-0 pointer-events-none animate-scan"></div>
 
       {/* Video Container */}
-      <div className="relative aspect-video bg-black/50 overflow-hidden">
-        
-    <iframe
-          src="https://www.kapwing.com/videos/6732e7e250c1981eded8d423"
-          className="w-full h-full"
-          frameBorder="0"
-          allowFullScreen
-          title="AUTO_MATE DEMO"
-        ></iframe>
-        {/* Decorative Elements */}
-        <div className="absolute top-4 left-4 flex items-center gap-2">
-          <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
-          <span className="text-xs opacity-70 tracking-wider">REC</span>
-        </div>
-        <div className="absolute top-4 right-4 text-lg cursor-pointer hover:text-white transition-colors">×</div>
-      </div>
-    </div>
+     <div style="height: 0; padding-bottom: calc(56.25%); position:relative; width: 100%;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/6732e7e250c1981eded8d423" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div><p style="font-size: 12px; text-align: right;">Video edited on <a href="https://www.kapwing.com/video-editor">Kapwing</a></p>
   );
 };
 
