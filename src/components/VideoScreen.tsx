@@ -52,7 +52,7 @@ const VideoScreen = () => {
       {/* Video Container */}
       <div className="relative aspect-video bg-black/50 overflow-hidden">
         <iframe
-          src="https://go.screenpal.com/watch/cZXleTnVcK4?embed=1"
+          src="https://drive.google.com/file/d/16lyfy0FY_YU6FTm0xFmlmuVIOlkcuMgF/view?usp=sharing"
           className="w-full h-full"
           frameBorder="0"
           allowFullScreen
