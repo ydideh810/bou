@@ -53,7 +53,7 @@ const VideoScreen = () => {
       <div className="relative aspect-video bg-black/50 overflow-hidden">
         
     <iframe
-          src="https://streamable.com/8aghka"
+          src="https://youtu.be/xsPcjhXbqRk"
           className="w-full h-full"
           frameBorder="0"
           allowFullScreen
