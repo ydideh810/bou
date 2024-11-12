@@ -53,7 +53,7 @@ const VideoScreen = () => {
       <div className="relative aspect-video bg-black/50 overflow-hidden">
         
     <iframe
-          src="https://youtu.be/xsPcjhXbqRk"
+          src="https://www.youtube.com/watch?v=xsPcjhXbqRk"
           className="w-full h-full"
           frameBorder="0"
           allowFullScreen
