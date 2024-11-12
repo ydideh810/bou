@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'SpaceMono';
+  src: url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+}
+
+@layer base {
+  body {
+    background-color: black;
+    color: #B20000;
+    font-family: 'Space Mono', monospace;
+  }
+}
+
+@layer utilities {
+  .animate-scan {
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(255, 255, 255, 0.03) 50%,
+      transparent 100%
+    );
+    animation: scan 8s linear infinite;
+    height: 20%;
+  }
+}
+
+@keyframes scan {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(500%);
+  }
+}
